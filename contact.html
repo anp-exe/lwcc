@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Get Involved — London Women Chess Club</title>
+<link rel="icon" type="image/jpeg" href="https://usercontent.one/wp/www.londonwomenchess.org.uk/wp-content/uploads/2024/05/cropped-LWCC-Logo-260410.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="logo">
+      <img src="https://usercontent.one/wp/www.londonwomenchess.org.uk/wp-content/uploads/2024/05/cropped-LWCC-Logo-260410.jpg" alt="LWCC Logo">
+      <div class="logo-text">London Women<small>Chess Club</small></div>
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="events.html">Events</a></li>
+      <li><a href="courses.html">Courses</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="safeguarding.html">Safeguarding</a></li>
+      <li><a href="contact.html" class="active">Get Involved</a></li>
+      <li><a href="https://form.jotform.com/241453653475359" class="btn-cta">Join Free →</a></li>
+    </ul>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<section class="page-hero">
+  <div class="page-hero-inner fade-up">
+    <div class="eyebrow">Get Involved</div>
+    <h1>Join the <em>community</em>.</h1>
+    <p>However you'd like to be part of LWCC — playing, coaching, volunteering, supporting — we'd love to hear from you.</p>
+  </div>
+</section>
+
+<!-- ===== WAYS TO GET INVOLVED ===== -->
+<section class="content-section">
+  <div class="content-inner">
+    <div class="card-grid">
+      <div class="feature-card">
+        <div class="icon">♟</div>
+        <h3>Become a member</h3>
+        <p>Free, easy, and gets you onto our mailing list for sessions and events. The first step for anyone wanting to play.</p>
+        <a href="https://form.jotform.com/241453653475359" class="btn-secondary" style="margin-top: 16px;">Join free →</a>
+      </div>
+      <div class="feature-card">
+        <div class="icon">★</div>
+        <h3>Volunteer</h3>
+        <p>From running sessions to helping with events, our volunteers are the engine of the club. Tell us how you'd like to help.</p>
+        <a href="#contact-form" class="btn-secondary" style="margin-top: 16px;">Get in touch →</a>
+      </div>
+      <div class="feature-card">
+        <div class="icon">♛</div>
+        <h3>Sponsor or partner</h3>
+        <p>We work with businesses and institutions that share our mission. Sponsorship helps us run free sessions and host tournaments.</p>
+        <a href="#contact-form" class="btn-secondary" style="margin-top: 16px;">Talk to us →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONTACT FORM ===== -->
+<section class="content-section alt" id="contact-form">
+  <div class="content-inner">
+    <div class="section-head">
+      <div class="eyebrow">Reach Out</div>
+      <h2>Send us a <em>message</em>.</h2>
+      <p>We aim to reply within a few days. For urgent safeguarding matters, see our <a href="safeguarding.html" style="color: var(--burgundy);">Safeguarding</a> page.</p>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-info">
+        <h3>Where to find us</h3>
+        <p>
+          Pancras Square Library<br>
+          Children's section by the windows<br>
+          (middle floor)<br>
+          5 Pancras Rd<br>
+          London N1C 4AG
+        </p>
+
+        <h3>When we meet</h3>
+        <p>
+          <strong>Sunday Social:</strong> 1:00pm – 4:30pm<br>
+          <strong>League Tuesdays:</strong> 6:30pm – 9:30pm
+        </p>
+
+        <h3>Find us online</h3>
+        <p>
+          <a href="https://www.meetup.com/london-women-chess-club/" target="_blank" rel="noopener">Meetup</a><br>
+          <a href="#" target="_blank" rel="noopener">Lichess club</a><br>
+          <a href="#" target="_blank" rel="noopener">Chess.com club</a>
+        </p>
+      </div>
+      <div class="form-card">
+        <form onsubmit="event.preventDefault(); alert('Thanks! We will be in touch soon.');">
+          <div class="form-field">
+            <label for="name">Name</label>
+            <input type="text" id="name" required>
+          </div>
+          <div class="form-field">
+            <label for="email">Email</label>
+            <input type="email" id="email" required>
+          </div>
+          <div class="form-field">
+            <label for="reason">I'd like to...</label>
+            <select id="reason">
+              <option>Join as a member</option>
+              <option>Volunteer</option>
+              <option>Discuss sponsorship</option>
+              <option>Ask about coaching</option>
+              <option>Something else</option>
+            </select>
+          </div>
+          <div class="form-field">
+            <label for="message">Message</label>
+            <textarea id="message" placeholder="Tell us a little about you and how you'd like to be involved..." required></textarea>
+          </div>
+          <button type="submit" class="btn-primary" style="width: 100%; justify-content: center;">Send message →</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-col footer-brand">
+      <a href="index.html" class="logo">
+        <img src="https://usercontent.one/wp/www.londonwomenchess.org.uk/wp-content/uploads/2024/05/cropped-LWCC-Logo-260410.jpg" alt="LWCC">
+        <div class="logo-text">London Women<small>Chess Club</small></div>
+      </a>
+      <p>England's first women's chess club — an award-winning, inclusive community for women and girls of every level.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Visit Us</h4>
+      <p>Pancras Square Library<br>Children's section by the windows<br>(middle floor)<br>5 Pancras Rd<br>London N1C 4AG</p>
+    </div>
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Get Involved</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="safeguarding.html">Safeguarding</a></li>
+        <li><a href="blog.html">Blog</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Newsletter</h4>
+      <p style="font-size:14px;">Stay up to date with events, chess news and more.</p>
+      <form class="newsletter-form" onsubmit="event.preventDefault(); alert('Thanks for subscribing!')">
+        <input type="email" placeholder="Your email address" required>
+        <button type="submit">Subscribe →</button>
+      </form>
+      <div class="map-wrap">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7018.165551720498!2d-0.13077486771931288!3d51.53423449405444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761b39148c1b03%3A0xfd3aeacdef0fea03!2sPancras%20Square%20Library!5e0!3m2!1sen!2suk!4v1775911359258!5m2!1sen!2suk" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div>© 2026 London Women Chess Club — A Community Interest Company</div>
+    <div>Made with ♛ in London</div>
+  </div>
+</footer>
+
+<script>
+  const toggle = document.getElementById('menuToggle');
+  const links = document.getElementById('navLinks');
+  toggle?.addEventListener('click', () => links.classList.toggle('open'));
+  document.querySelectorAll('#navLinks a').forEach(a => a.addEventListener('click', () => links.classList.remove('open')));
+</script>
+</body>
+</html>

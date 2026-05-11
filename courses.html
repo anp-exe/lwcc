@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Courses — London Women Chess Club</title>
+<link rel="icon" type="image/jpeg" href="https://usercontent.one/wp/www.londonwomenchess.org.uk/wp-content/uploads/2024/05/cropped-LWCC-Logo-260410.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="logo">
+      <img src="https://usercontent.one/wp/www.londonwomenchess.org.uk/wp-content/uploads/2024/05/cropped-LWCC-Logo-260410.jpg" alt="LWCC Logo">
+      <div class="logo-text">London Women<small>Chess Club</small></div>
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="events.html">Events</a></li>
+      <li><a href="courses.html" class="active">Courses</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="safeguarding.html">Safeguarding</a></li>
+      <li><a href="contact.html">Get Involved</a></li>
+      <li><a href="https://form.jotform.com/241453653475359" class="btn-cta">Join Free →</a></li>
+    </ul>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<section class="page-hero">
+  <div class="page-hero-inner fade-up">
+    <div class="eyebrow">Learn With Us</div>
+    <h1>Group <em>coaching</em>.</h1>
+    <p>Improve your chess in a supportive group setting — alongside players on the same journey.</p>
+  </div>
+</section>
+
+<section class="content-section">
+  <div class="content-inner">
+    <div class="course-feature">
+      <div>
+        <span class="label">Now Enrolling</span>
+        <h3>LWCC <em>Group Coaching</em></h3>
+        <p>Our group coaching sessions are designed to help you grow your chess in a friendly, supportive environment. Learn from experienced players, study together, and play games with focused feedback.</p>
+        <p>Whether you're new to the game or looking to push past a plateau, group coaching is a chance to develop alongside others on the same journey.</p>
+      </div>
+      <div class="price-block">
+        <div class="price">£10</div>
+        <div class="price-sub">Per session</div>
+        <a href="https://form.jotform.com/241475449120353" class="btn-primary">Register →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="content-section alt">
+  <div class="content-inner narrow prose">
+    <h2>Questions?</h2>
+    <p>If you'd like to know more about group coaching — what to expect, what level it's pitched at, or how to get started — <a href="contact.html">drop us a message</a> and we'll get back to you.</p>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-col footer-brand">
+      <a href="index.html" class="logo">
+        <img src="https://usercontent.one/wp/www.londonwomenchess.org.uk/wp-content/uploads/2024/05/cropped-LWCC-Logo-260410.jpg" alt="LWCC">
+        <div class="logo-text">London Women<small>Chess Club</small></div>
+      </a>
+      <p>England's first women's chess club — an award-winning, inclusive community for women and girls of every level.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Visit Us</h4>
+      <p>Pancras Square Library<br>Children's section by the windows<br>(middle floor)<br>5 Pancras Rd<br>London N1C 4AG</p>
+    </div>
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Get Involved</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="safeguarding.html">Safeguarding</a></li>
+        <li><a href="blog.html">Blog</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Newsletter</h4>
+      <p style="font-size:14px;">Stay up to date with events, chess news and more.</p>
+      <form class="newsletter-form" onsubmit="event.preventDefault(); alert('Thanks for subscribing!')">
+        <input type="email" placeholder="Your email address" required>
+        <button type="submit">Subscribe →</button>
+      </form>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div>© 2026 London Women Chess Club — A Community Interest Company</div>
+    <div>Made with ♛ in London</div>
+  </div>
+</footer>
+
+<script>
+  const toggle = document.getElementById('menuToggle');
+  const links = document.getElementById('navLinks');
+  toggle?.addEventListener('click', () => links.classList.toggle('open'));
+  document.querySelectorAll('#navLinks a').forEach(a => a.addEventListener('click', () => links.classList.remove('open')));
+</script>
+</body>
+</html>
