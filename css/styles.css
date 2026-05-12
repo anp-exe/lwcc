@@ -906,6 +906,44 @@ nav {
   .course-feature { grid-template-columns: 1fr; padding: 36px; gap: 32px; }
 }
 
+/* ============ EMBEDDED CALENDAR ============ */
+.calendar-section {
+  padding: 100px 32px;
+  background: linear-gradient(180deg, var(--cream) 0%, var(--cream-warm) 100%);
+}
+.calendar-inner { max-width: 1180px; margin: 0 auto; }
+.calendar-frame {
+  margin-top: 48px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 14px 40px rgba(74, 30, 40, 0.12), 0 4px 12px rgba(74, 30, 40, 0.06);
+  border: 1px solid rgba(184, 146, 78, 0.25);
+  background: var(--white-soft);
+}
+.calendar-frame iframe {
+  width: 100%;
+  height: 700px;
+  border: 0;
+  display: block;
+}
+.calendar-actions {
+  text-align: center;
+  margin-top: 28px;
+  font-size: 14px;
+  color: var(--ink-soft);
+}
+.calendar-actions a {
+  color: var(--burgundy);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+.calendar-actions a:hover { color: var(--burgundy-deep); }
+@media (max-width: 700px) {
+  .calendar-frame iframe { height: 540px; }
+  .calendar-section { padding: 70px 20px; }
+}
+
 /* ============ FLOATING WHATSAPP BUTTON ============ */
 .whatsapp-float {
   position: fixed;
@@ -974,6 +1012,93 @@ nav {
   .whatsapp-float { width: 54px; height: 54px; bottom: 18px; right: 18px; }
   .whatsapp-float svg { width: 28px; height: 28px; }
   .whatsapp-float .tooltip { display: none; }
+}
+
+/* ============ TEAM GRID ============ */
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 36px;
+  margin-top: 56px;
+}
+.team-card {
+  background: var(--white-soft);
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid rgba(184, 146, 78, 0.18);
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+.team-card:hover {
+  border-color: var(--brass);
+  transform: translateY(-4px);
+  box-shadow: 0 22px 50px rgba(74, 30, 40, 0.12);
+}
+.team-card .photo {
+  aspect-ratio: 4 / 5;
+  overflow: hidden;
+  background: var(--cream-warm);
+  position: relative;
+}
+.team-card .photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.5s ease;
+}
+.team-card:hover .photo img { transform: scale(1.03); }
+.team-card .photo .fallback {
+  display: none;
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, var(--blush) 0%, var(--cream-warm) 100%);
+  color: var(--burgundy);
+  font-family: 'Fraunces', serif;
+  font-size: 96px;
+  font-weight: 300;
+  align-items: center;
+  justify-content: center;
+}
+.team-card .photo.broken img { display: none; }
+.team-card .photo.broken .fallback { display: flex; }
+.team-card .info {
+  padding: 28px 28px 32px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.team-card .info .role {
+  display: inline-block;
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--burgundy-deep);
+  background: var(--blush);
+  padding: 5px 12px;
+  border-radius: 999px;
+  margin-bottom: 14px;
+  font-weight: 600;
+  align-self: flex-start;
+}
+.team-card .info h3 {
+  font-family: 'Fraunces', serif;
+  font-size: 24px;
+  font-weight: 500;
+  color: var(--burgundy-deep);
+  margin-bottom: 14px;
+  line-height: 1.2;
+}
+.team-card .info p {
+  color: var(--ink-soft);
+  font-size: 14.5px;
+  line-height: 1.7;
+  margin-bottom: 12px;
+}
+.team-card .info p:last-child { margin-bottom: 0; }
+@media (max-width: 980px) {
+  .team-grid { grid-template-columns: 1fr; gap: 28px; }
 }
 
 /* ============ SPONSORS ============ */

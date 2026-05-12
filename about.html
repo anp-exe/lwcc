@@ -47,22 +47,61 @@
 <section class="content-section">
   <div class="content-inner narrow prose">
     <h2>Who we <em>are</em>.</h2>
-    <p>London Women Chess Club is a non-profit Community Interest Company (CIC) dedicated to providing a welcoming, safe space for all women and girls to learn and enjoy chess. We were founded on a simple belief: chess is for everyone, and the board feels better when everyone's invited.</p>
-    <p>As England's first women's chess club, we've grown into a vibrant community that spans every age, background and skill level. From total beginners discovering how the knight moves, to competitive players representing us in leagues, our members are what make us who we are.</p>
-
-    <h2>What we <em>stand for</em>.</h2>
-    <p>Our work is shaped by a few simple values:</p>
-    <ul>
-      <li><strong>Inclusivity.</strong> All women and girls are welcome, regardless of age, background, experience or ability.</li>
-      <li><strong>Safe play.</strong> We hold ourselves to a high standard of safeguarding and community care.</li>
-      <li><strong>Growth.</strong> Wherever you are on your chess journey, we want to help you get further.</li>
-      <li><strong>Community.</strong> The club is built on real friendships and positive interactions — not just games.</li>
-    </ul>
+    <p>London Women Chess Club is a non-profit Community Interest Company (CIC) dedicated to providing a welcoming, safe space for all women and girls to learn and enjoy chess. Recognising the lack of female representation in chess clubs and tournaments, we set out to establish an inclusive community for all women and girls who play chess in London and beyond.</p>
+    <p>Since 2022 we've played competitive chess, hosted tournaments, and grown a vibrant community that spans every age, background and skill level. From total beginners discovering how the knight moves, to competitive players representing us in leagues, our members are what make us who we are.</p>
 
     <h2>Recognition.</h2>
     <p>We're proud to have been recognised by the English Chess Federation as an award-winning club for women in chess. We're supported by the ECF, ECF Grassroots, and the Francis Crick Institute — partnerships that help us run free sessions, host events, and grow.</p>
   </div>
 </section>
+
+<!-- ===== MEET THE TEAM ===== -->
+<section class="content-section alt">
+  <div class="content-inner">
+    <div class="section-head">
+      <div class="eyebrow">Meet The Team</div>
+      <h2>The people behind <em>LWCC</em>.</h2>
+      <p>Our committee is made up of volunteers who give their time to keep the club running.</p>
+    </div>
+    <div class="team-grid">
+      <div class="team-card">
+        <div class="photo">
+          <img src="https://usercontent.one/wp/www.londonwomenchess.org.uk/wp-content/uploads/2025/11/DSCF1296-Enhanced-NR.jpg" alt="Lucinda Thompson" onerror="this.parentElement.classList.add('broken')">
+          <div class="fallback">L</div>
+        </div>
+        <div class="info">
+          <span class="role">Finance Director</span>
+          <h3>Lucinda Thompson</h3>
+          <p>An engineer by profession and an active player at LWCC for over a year. As Treasurer, Lucinda oversees the club's financial health — ensuring transparency and managing the funds that support our coaching sessions and tournaments. She's committed to maintaining a strong financial foundation for LWCC's continued success and growth.</p>
+        </div>
+      </div>
+
+      <div class="team-card">
+        <div class="photo">
+          <img src="images/zoya.png" alt="Zoya Boozorginia" onerror="this.parentElement.classList.add('broken')">
+          <div class="fallback">Z</div>
+        </div>
+        <div class="info">
+          <span class="role">Founder & Managing Director</span>
+          <h3>Zoya Boozorginia</h3>
+          <p>The founder and Managing Director of LWCC. A project architect by background, Zoya brings creativity, structure, and vision to every initiative she leads.</p>
+          <p>Having learned chess as a child, she rediscovered her passion for the game in adulthood, joining Battersea Chess Club in 2021 and immersing herself in competitive play. Inspired by <em>The Queen's Gambit</em>, she became even more captivated by the beauty and challenge of the game — and as the women she gathered around her grew into a group, she realised it was time to create something lasting.</p>
+          <p>Her mission is to make chess accessible, inclusive, and inspiring — encouraging women at all levels to build confidence, connect socially, and compete professionally.</p>
+        </div>
+      </div>
+
+      <div class="team-card">
+        <div class="photo">
+          <img src="images/anna.png" alt="Anna" onerror="this.parentElement.classList.add('broken')">
+          <div class="fallback">A</div>
+        </div>
+        <div class="info">
+          <span class="role">Website & Communications Director</span>
+          <h3>Anna</h3>
+          <p>An aspiring AI engineer and a student at King's College London. Anna built this website and helps run the club's online presence.</p>
+        </div>
+      </div>
+    </div>
 
 <!-- ===== ABOUT IMAGE BLOCK ===== -->
 <section class="about" style="padding-top: 40px;">
@@ -124,7 +163,7 @@
     <div class="footer-col">
       <h4>Newsletter</h4>
       <p style="font-size:14px;">Stay up to date with events, chess news and more.</p>
-      <form class="newsletter-form" onsubmit="event.preventDefault(); alert('Thanks for subscribing!')">
+      <form class="newsletter-form">
         <input type="email" placeholder="Your email address" required>
         <button type="submit">Subscribe →</button>
       </form>
@@ -141,6 +180,17 @@
   const links = document.getElementById('navLinks');
   toggle?.addEventListener('click', () => links.classList.toggle('open'));
   document.querySelectorAll('#navLinks a').forEach(a => a.addEventListener('click', () => links.classList.remove('open')));
+
+  // Newsletter forms -> mailto info@
+  document.querySelectorAll('.newsletter-form').forEach(form => {
+    form.addEventListener('submit', function(e) {
+      e.preventDefault();
+      const email = form.querySelector('input[type="email"]').value;
+      const subject = 'LWCC newsletter signup';
+      const body = 'Please add this email to the LWCC newsletter:\n\n' + email;
+      window.location.href = 'mailto:info@londonwomenchess.org.uk?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+    });
+  });
 </script>
 </body>
 </html>

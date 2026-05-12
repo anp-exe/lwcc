@@ -100,7 +100,7 @@
         </p>
       </div>
       <div class="form-card">
-        <form onsubmit="event.preventDefault(); alert('Thanks! We will be in touch soon.');">
+        <form id="contactForm">
           <div class="form-field">
             <label for="name">Name</label>
             <input type="text" id="name" required>
@@ -159,7 +159,7 @@
     <div class="footer-col">
       <h4>Newsletter</h4>
       <p style="font-size:14px;">Stay up to date with events, chess news and more.</p>
-      <form class="newsletter-form" onsubmit="event.preventDefault(); alert('Thanks for subscribing!')">
+      <form class="newsletter-form">
         <input type="email" placeholder="Your email address" required>
         <button type="submit">Subscribe →</button>
       </form>
@@ -179,6 +179,32 @@
   const links = document.getElementById('navLinks');
   toggle?.addEventListener('click', () => links.classList.toggle('open'));
   document.querySelectorAll('#navLinks a').forEach(a => a.addEventListener('click', () => links.classList.remove('open')));
+
+  // Contact form -> mailto info@
+  const contactForm = document.getElementById('contactForm');
+  if (contactForm) {
+    contactForm.addEventListener('submit', function(e) {
+      e.preventDefault();
+      const name = document.getElementById('name').value;
+      const email = document.getElementById('email').value;
+      const reason = document.getElementById('reason').value;
+      const message = document.getElementById('message').value;
+      const subject = 'LWCC contact: ' + reason;
+      const body = 'Name: ' + name + '\nEmail: ' + email + '\nReason: ' + reason + '\n\nMessage:\n' + message;
+      window.location.href = 'mailto:info@londonwomenchess.org.uk?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+    });
+  }
+
+  // Newsletter forms -> mailto info@
+  document.querySelectorAll('.newsletter-form').forEach(form => {
+    form.addEventListener('submit', function(e) {
+      e.preventDefault();
+      const email = form.querySelector('input[type="email"]').value;
+      const subject = 'LWCC newsletter signup';
+      const body = 'Please add this email to the LWCC newsletter:\n\n' + email;
+      window.location.href = 'mailto:info@londonwomenchess.org.uk?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+    });
+  });
 </script>
 </body>
 </html>

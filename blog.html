@@ -111,7 +111,7 @@
     <div class="footer-col">
       <h4>Newsletter</h4>
       <p style="font-size:14px;">Stay up to date with events, chess news and more.</p>
-      <form class="newsletter-form" onsubmit="event.preventDefault(); alert('Thanks for subscribing!')">
+      <form class="newsletter-form">
         <input type="email" placeholder="Your email address" required>
         <button type="submit">Subscribe →</button>
       </form>
@@ -128,6 +128,17 @@
   const links = document.getElementById('navLinks');
   toggle?.addEventListener('click', () => links.classList.toggle('open'));
   document.querySelectorAll('#navLinks a').forEach(a => a.addEventListener('click', () => links.classList.remove('open')));
+
+  // Newsletter forms -> mailto info@
+  document.querySelectorAll('.newsletter-form').forEach(form => {
+    form.addEventListener('submit', function(e) {
+      e.preventDefault();
+      const email = form.querySelector('input[type="email"]').value;
+      const subject = 'LWCC newsletter signup';
+      const body = 'Please add this email to the LWCC newsletter:\n\n' + email;
+      window.location.href = 'mailto:info@londonwomenchess.org.uk?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+    });
+  });
 </script>
 </body>
 </html>
