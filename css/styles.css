@@ -498,7 +498,7 @@ nav {
   border-radius: 12px;
   padding: 56px;
   display: grid;
-  grid-template-columns: auto 1fr auto;
+  grid-template-columns: auto 1fr 220px auto;
   gap: 48px;
   align-items: center;
   box-shadow: 0 4px 40px rgba(74, 30, 40, 0.08);
@@ -567,6 +567,21 @@ nav {
   color: var(--burgundy);
   font-weight: 500;
   margin: 0 8px;
+}
+.event-media {
+  width: 220px;
+  height: 150px;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid rgba(184, 146, 78, 0.25);
+  background: var(--cream);
+  box-shadow: 0 10px 24px rgba(74, 30, 40, 0.08);
+}
+.event-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 
 /* ============ ABOUT BLOCK ============ */
@@ -902,8 +917,19 @@ nav {
   width: 100%;
   justify-content: center;
 }
+.course-feature-image {
+  width: 100%;
+  max-width: 520px;
+  height: auto;
+  display: block;
+  margin: 18px 0 22px;
+  border-radius: 12px;
+  border: 1px solid rgba(184, 146, 78, 0.25);
+  box-shadow: 0 10px 24px rgba(74, 30, 40, 0.08);
+}
 @media (max-width: 880px) {
   .course-feature { grid-template-columns: 1fr; padding: 36px; gap: 32px; }
+  .course-feature-image { max-width: 100%; }
 }
 
 /* ============ EMBEDDED CALENDAR ============ */
@@ -1617,6 +1643,7 @@ footer {
   .trust-inner { grid-template-columns: repeat(2, 1fr); gap: 24px; }
   .trust-item:nth-child(2)::after { display: none; }
   .event-card { grid-template-columns: 1fr; padding: 36px; gap: 24px; text-align: center; }
+  .event-media { width: 100%; max-width: 360px; height: 180px; margin: 0 auto; }
   .event-date { padding-right: 0; padding-bottom: 24px; border-right: none; border-bottom: 1px solid rgba(107, 45, 58, 0.15); }
   .schedule-grid, .sponsors-logos, .card-grid, .card-grid.cols-2, .blog-list, .gallery-grid { grid-template-columns: 1fr; }
   .gallery-grid { grid-template-columns: repeat(2, 1fr); }
