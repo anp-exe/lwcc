@@ -4,10 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Safeguarding & Privacy Policy | London Women Chess Club</title>
-<link rel="icon" type="image/x-icon" href="favicon.ico">
-<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16.png">
-<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+<link rel="icon" type="image/jpeg" href="images/lwcc-logo.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
@@ -24,7 +21,6 @@
     <ul class="nav-links" id="navLinks">
       <li><a href="index.html">Home</a></li>
       <li><a href="about.html">About</a></li>
-      <li><a href="team.html">Team</a></li>
       <li><a href="events.html">Events</a></li>
       <li><a href="courses.html">Courses</a></li>
       <li><a href="gallery.html">Gallery</a></li>
@@ -214,7 +210,6 @@
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About Us</a></li>
-        <li><a href="team.html">Meet The Team</a></li>
         <li><a href="contact.html">Get Involved</a></li>
         <li><a href="events.html">Events</a></li>
         <li><a href="courses.html">Courses</a></li>

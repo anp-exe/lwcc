@@ -3,11 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Blog & Press | London Women Chess Club</title>
-<link rel="icon" type="image/x-icon" href="favicon.ico">
-<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16.png">
-<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+<title>Courses | London Women Chess Club</title>
+<link rel="icon" type="image/jpeg" href="images/lwcc-logo.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
@@ -24,11 +21,10 @@
     <ul class="nav-links" id="navLinks">
       <li><a href="index.html">Home</a></li>
       <li><a href="about.html">About</a></li>
-      <li><a href="team.html">Team</a></li>
       <li><a href="events.html">Events</a></li>
-      <li><a href="courses.html">Courses</a></li>
+      <li><a href="courses.html" class="active">Courses</a></li>
       <li><a href="gallery.html">Gallery</a></li>
-      <li><a href="blog.html" class="active">Blog</a></li>
+      <li><a href="blog.html">Blog</a></li>
       <li><a href="safeguarding.html">Safeguarding</a></li>
       <li><a href="contact.html">Get Involved</a></li>
       <li><a href="https://form.jotform.com/241453653475359" class="btn-cta">Join Free →</a></li>
@@ -37,52 +33,45 @@
   </div>
 </nav>
 
+<section class="coach-away-banner" style="background: var(--burgundy-deep); border-top: 3px solid var(--brass); border-bottom: 3px solid var(--brass);">
+  <div style="max-width: 900px; margin: 0 auto; padding: 22px 24px; text-align: center;">
+    <p style="margin: 0; color: var(--cream); font-size: 19px; line-height: 1.5;">
+      <span style="display:inline-block; background: var(--brass); color: var(--burgundy-deep); font-weight: 700; font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; padding: 3px 10px; border-radius: 999px; margin-right: 10px; vertical-align: middle;">Coaching Update</span>
+      <strong>Our in-house coach is away until the end of July</strong>, enjoying a well deserved summer break. Coaching sessions resume in August, see you back at the board soon!
+    </p>
+  </div>
+</section>
+
 <section class="page-hero">
   <div class="page-hero-inner fade-up">
-    <div class="eyebrow">Blog & Press</div>
-    <h1>In the <em>press</em>.</h1>
-    <p>Articles, features and stories about London Women Chess Club and women's chess.</p>
+    <div class="eyebrow">Learn With Us</div>
+    <h1>Group <em>coaching</em>.</h1>
+    <p>Improve your chess in a supportive group setting, alongside players on the same journey.</p>
   </div>
 </section>
 
 <section class="content-section">
   <div class="content-inner">
-    <div class="blog-list">
-      <article class="blog-card">
-        <span class="tag">Member Project · Data Analysis</span>
-        <h3>Women in Chess: a data story</h3>
-        <p>"One in nine FIDE rated chess players is a woman. This is a data story about why." An interactive deep dive into The Queen's Gambit effect, Judit Polgár, peak ages, and a Monte Carlo decomposition of the rating gap, by LWCC volunteer Anna.</p>
-        <div class="meta">By Anna · <a href="https://anp-exe.github.io/women-in-chess-analysis/" target="_blank" rel="noopener" style="color: var(--burgundy);">Read the project →</a></div>
-      </article>
-
-      <article class="blog-card">
-        <span class="tag">SW Londoner · Feature</span>
-        <h3>Battersea female chess player encourages women to get involved</h3>
-        <p>"A female chess player from Battersea is encouraging more women to get involved with the game after it has helped her to overcome her trauma. Zoya Boozorginia, 39, began playing chess at 10. Now, as a full-time architect, she balances her work and her addiction to chess, even moving house to live nearer to the chess club…"</p>
-        <div class="meta">SW Londoner · <a href="https://www.swlondoner.co.uk/life/29102021-battersea-female-chess-player-encourages-women-to-get-involved" target="_blank" rel="noopener" style="color: var(--burgundy);">Read the article →</a></div>
-      </article>
-
-      <article class="blog-card">
-        <span class="tag">SW Londoner · News</span>
-        <h3>London chess clubs create new communities as more people get on board with the ancient game</h3>
-        <p>A look at how London's chess clubs, including LWCC, are building new communities around the game.</p>
-        <div class="meta">SW Londoner · <a href="https://www.swlondoner.co.uk/news/06112025-london-chess-clubs-create-new-communities-as-more-people-get-on-board-the-ancient-game" target="_blank" rel="noopener" style="color: var(--burgundy);">Read the article →</a></div>
-      </article>
-
-      <article class="blog-card">
-        <span class="tag">Chess.com · History</span>
-        <h3>The Ladies' Chess Club: The First Year</h3>
-        <p>"The first Ladies' Chess Club was formed at Brompton in London, with its first meeting attended by 25 ladies on January 14, 1895. Miss E. M. Burrell of 86, West Cromwell Road, was named the club secretary, and the club met at members' homes until March 11, when it took quarters at 447, Strand, W.C."</p>
-        <div class="meta">Chess.com · <a href="#" style="color: var(--burgundy);">Read the article →</a> <span style="color: var(--ink-soft); font-style: italic;">(link to be added)</span></div>
-      </article>
+    <div class="course-feature">
+      <div>
+        <span class="label">Now Enrolling</span>
+        <h3>LWCC <em>Group Coaching</em></h3>
+        <p>Our group coaching sessions are designed to help you grow your chess in a friendly, supportive environment. Learn from experienced players, study together, and play games with focused feedback.</p>
+        <p>Whether you're new to the game or looking to push past a plateau, group coaching is a chance to develop alongside others on the same journey.</p>
+      </div>
+      <div class="price-block">
+        <div class="price">£10</div>
+        <div class="price-sub">Per session</div>
+        <a href="https://form.jotform.com/241475449120353" class="btn-primary">Register →</a>
+      </div>
     </div>
   </div>
 </section>
 
 <section class="content-section alt">
-  <div class="content-inner narrow prose" style="text-align: center;">
-    <h2>Featured us?</h2>
-    <p>If you've written about LWCC or want to interview us for a feature, please <a href="contact.html">get in touch</a>. We'd love to hear from you.</p>
+  <div class="content-inner narrow prose">
+    <h2>Questions?</h2>
+    <p>If you'd like to know more about group coaching (what to expect, what level it's pitched at, or how to get started), <a href="contact.html">drop us a message</a> and we'll get back to you.</p>
   </div>
 </section>
 
@@ -104,7 +93,6 @@
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About Us</a></li>
-        <li><a href="team.html">Meet The Team</a></li>
         <li><a href="contact.html">Get Involved</a></li>
         <li><a href="events.html">Events</a></li>
         <li><a href="courses.html">Courses</a></li>

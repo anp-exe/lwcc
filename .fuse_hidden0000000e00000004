@@ -24,7 +24,6 @@
     <ul class="nav-links" id="navLinks">
       <li><a href="index.html">Home</a></li>
       <li><a href="about.html">About</a></li>
-      <li><a href="team.html">Team</a></li>
       <li><a href="events.html">Events</a></li>
       <li><a href="courses.html">Courses</a></li>
       <li><a href="gallery.html">Gallery</a></li>
@@ -104,7 +103,6 @@
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About Us</a></li>
-        <li><a href="team.html">Meet The Team</a></li>
         <li><a href="contact.html">Get Involved</a></li>
         <li><a href="events.html">Events</a></li>
         <li><a href="courses.html">Courses</a></li>

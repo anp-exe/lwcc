@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Blog & Press | London Women Chess Club</title>
+<title>Safeguarding | London Women Chess Club</title>
 <link rel="icon" type="image/x-icon" href="favicon.ico">
 <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16.png">
@@ -28,8 +28,8 @@
       <li><a href="events.html">Events</a></li>
       <li><a href="courses.html">Courses</a></li>
       <li><a href="gallery.html">Gallery</a></li>
-      <li><a href="blog.html" class="active">Blog</a></li>
-      <li><a href="safeguarding.html">Safeguarding</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="safeguarding.html" class="active">Safeguarding</a></li>
       <li><a href="contact.html">Get Involved</a></li>
       <li><a href="https://form.jotform.com/241453653475359" class="btn-cta">Join Free →</a></li>
     </ul>
@@ -39,50 +39,33 @@
 
 <section class="page-hero">
   <div class="page-hero-inner fade-up">
-    <div class="eyebrow">Blog & Press</div>
-    <h1>In the <em>press</em>.</h1>
-    <p>Articles, features and stories about London Women Chess Club and women's chess.</p>
+    <div class="eyebrow">Our Commitment</div>
+    <h1>Safe play, <em>always</em>.</h1>
+    <p>We're committed to providing a safe, welcoming and inclusive space for every woman and girl who walks through our door.</p>
   </div>
 </section>
 
 <section class="content-section">
-  <div class="content-inner">
-    <div class="blog-list">
-      <article class="blog-card">
-        <span class="tag">Member Project · Data Analysis</span>
-        <h3>Women in Chess: a data story</h3>
-        <p>"One in nine FIDE rated chess players is a woman. This is a data story about why." An interactive deep dive into The Queen's Gambit effect, Judit Polgár, peak ages, and a Monte Carlo decomposition of the rating gap, by LWCC volunteer Anna.</p>
-        <div class="meta">By Anna · <a href="https://anp-exe.github.io/women-in-chess-analysis/" target="_blank" rel="noopener" style="color: var(--burgundy);">Read the project →</a></div>
-      </article>
+  <div class="content-inner narrow prose">
+    <p style="font-style: italic; color: var(--burgundy); font-size: 18px; border-left: 2px solid var(--brass); padding-left: 20px;">
+      "We aim to create a safe, welcoming space for everyone to enjoy playing chess."
+    </p>
 
-      <article class="blog-card">
-        <span class="tag">SW Londoner · Feature</span>
-        <h3>Battersea female chess player encourages women to get involved</h3>
-        <p>"A female chess player from Battersea is encouraging more women to get involved with the game after it has helped her to overcome her trauma. Zoya Boozorginia, 39, began playing chess at 10. Now, as a full-time architect, she balances her work and her addiction to chess, even moving house to live nearer to the chess club…"</p>
-        <div class="meta">SW Londoner · <a href="https://www.swlondoner.co.uk/life/29102021-battersea-female-chess-player-encourages-women-to-get-involved" target="_blank" rel="noopener" style="color: var(--burgundy);">Read the article →</a></div>
-      </article>
+    <h2>What this <em>covers</em>.</h2>
+    <p>Our full safeguarding policy sets out how we create a safe, enjoyable and inclusive space for everyone, across clear rules, inclusivity, welcoming environment, resources and support, safety, fair play, community engagement, and how we implement it all. It also incorporates our GDPR & data protection commitments and our approach to member advocacy.</p>
 
-      <article class="blog-card">
-        <span class="tag">SW Londoner · News</span>
-        <h3>London chess clubs create new communities as more people get on board with the ancient game</h3>
-        <p>A look at how London's chess clubs, including LWCC, are building new communities around the game.</p>
-        <div class="meta">SW Londoner · <a href="https://www.swlondoner.co.uk/news/06112025-london-chess-clubs-create-new-communities-as-more-people-get-on-board-the-ancient-game" target="_blank" rel="noopener" style="color: var(--burgundy);">Read the article →</a></div>
-      </article>
+    <h2>Read the <em>full policy</em>.</h2>
+    <p>The complete document covers our safeguarding approach, the ECF safeguarding framework we follow, what data we collect and how we protect it, and how we support members through advocacy.</p>
 
-      <article class="blog-card">
-        <span class="tag">Chess.com · History</span>
-        <h3>The Ladies' Chess Club: The First Year</h3>
-        <p>"The first Ladies' Chess Club was formed at Brompton in London, with its first meeting attended by 25 ladies on January 14, 1895. Miss E. M. Burrell of 86, West Cromwell Road, was named the club secretary, and the club met at members' homes until March 11, when it took quarters at 447, Strand, W.C."</p>
-        <div class="meta">Chess.com · <a href="#" style="color: var(--burgundy);">Read the article →</a> <span style="color: var(--ink-soft); font-style: italic;">(link to be added)</span></div>
-      </article>
-    </div>
-  </div>
-</section>
+    <p style="margin-top: 28px;">
+      <a href="safeguarding-policy.html" class="btn-primary">Read the full policy →</a>
+    </p>
 
-<section class="content-section alt">
-  <div class="content-inner narrow prose" style="text-align: center;">
-    <h2>Featured us?</h2>
-    <p>If you've written about LWCC or want to interview us for a feature, please <a href="contact.html">get in touch</a>. We'd love to hear from you.</p>
+    <h2>Raising a <em>concern</em>.</h2>
+    <p>If you have a safeguarding concern (about yourself, another member, or anything you've witnessed at the club), please contact us at <a href="mailto:info@londonwomenchess.org.uk">info@londonwomenchess.org.uk</a>. Concerns are handled confidentially.</p>
+
+    <h2>External <em>resources</em>.</h2>
+    <p>We follow the English Chess Federation safeguarding framework. For more, see <a href="https://www.englishchess.org.uk/about/safeguarding/" target="_blank" rel="noopener">Safeguarding and the ECF</a>.</p>
   </div>
 </section>
 
@@ -104,7 +87,6 @@
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About Us</a></li>
-        <li><a href="team.html">Meet The Team</a></li>
         <li><a href="contact.html">Get Involved</a></li>
         <li><a href="events.html">Events</a></li>
         <li><a href="courses.html">Courses</a></li>

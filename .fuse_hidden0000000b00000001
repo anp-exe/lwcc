@@ -4,10 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>About Us | London Women Chess Club</title>
-<link rel="icon" type="image/x-icon" href="favicon.ico">
-<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16.png">
-<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+<link rel="icon" type="image/jpeg" href="images/lwcc-logo.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
@@ -25,7 +22,6 @@
     <ul class="nav-links" id="navLinks">
       <li><a href="index.html">Home</a></li>
       <li><a href="about.html" class="active">About</a></li>
-      <li><a href="team.html">Team</a></li>
       <li><a href="events.html">Events</a></li>
       <li><a href="courses.html">Courses</a></li>
       <li><a href="gallery.html">Gallery</a></li>
@@ -59,13 +55,53 @@
   </div>
 </section>
 
-<!-- ===== MEET THE TEAM TEASER ===== -->
+<!-- ===== MEET THE TEAM ===== -->
 <section class="content-section alt">
-  <div class="content-inner narrow prose" style="text-align: center;">
-    <div class="eyebrow">Meet The Team</div>
-    <h2>The people behind <em>LWCC</em>.</h2>
-    <p>Our committee is made up of volunteers and coaches who give their time to keep the club running.</p>
-    <a href="team.html" class="btn-secondary">Meet the team →</a>
+  <div class="content-inner">
+    <div class="section-head">
+      <div class="eyebrow">Meet The Team</div>
+      <h2>The people behind <em>LWCC</em>.</h2>
+      <p>Our committee is made up of volunteers who give their time to keep the club running.</p>
+    </div>
+    <div class="team-grid">
+      <div class="team-card">
+        <div class="photo">
+          <img src="images/lucinda-thompson.jpg" alt="Lucinda Thompson" onerror="this.parentElement.classList.add('broken')">
+          <div class="fallback">L</div>
+        </div>
+        <div class="info">
+          <span class="role">Finance Director</span>
+          <h3>Lucinda Thompson</h3>
+          <p>An engineer by profession and an active player at LWCC for over a year. As Treasurer, Lucinda oversees the club's financial health, ensuring transparency and managing the funds that support our coaching sessions and tournaments. She's committed to maintaining a strong financial foundation for LWCC's continued success and growth.</p>
+        </div>
+      </div>
+
+      <div class="team-card">
+        <div class="photo">
+          <img src="images/zoya.png" alt="Zoya Boozorginia" onerror="this.parentElement.classList.add('broken')">
+          <div class="fallback">Z</div>
+        </div>
+        <div class="info">
+          <span class="role">Founder & Managing Director</span>
+          <h3>Zoya Boozorginia</h3>
+          <p>The founder and Managing Director of LWCC. A project architect by background, Zoya brings creativity, structure, and vision to every initiative she leads.</p>
+          <p>Having learned chess as a child, she rediscovered her passion for the game in adulthood, joining Battersea Chess Club in 2021 and immersing herself in competitive play. Inspired by <em>The Queen's Gambit</em>, she became even more captivated by the beauty and challenge of the game, and as the women she gathered around her grew into a group, she realised it was time to create something lasting.</p>
+          <p>Her mission is to make chess accessible, inclusive, and inspiring: encouraging women at all levels to build confidence, connect socially, and compete professionally.</p>
+        </div>
+      </div>
+
+      <div class="team-card">
+        <div class="photo">
+          <img src="images/anna.png" alt="Anna" onerror="this.parentElement.classList.add('broken')">
+          <div class="fallback">A</div>
+        </div>
+        <div class="info">
+          <span class="role">Website & Communications Director</span>
+          <h3>Anna</h3>
+          <p>An aspiring AI engineer and a student at King's College London. Anna built this website and helps run the club's online presence.</p>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -118,7 +154,6 @@
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About Us</a></li>
-        <li><a href="team.html">Meet The Team</a></li>
         <li><a href="contact.html">Get Involved</a></li>
         <li><a href="events.html">Events</a></li>
         <li><a href="courses.html">Courses</a></li>

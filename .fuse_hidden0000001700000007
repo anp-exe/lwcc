@@ -4,10 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>London Women Chess Club | Empowering Women in Chess</title>
-<link rel="icon" type="image/x-icon" href="favicon.ico">
-<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16.png">
-<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+<link rel="icon" type="image/jpeg" href="images/lwcc-logo.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
@@ -28,7 +25,6 @@
     <ul class="nav-links" id="navLinks">
       <li><a href="index.html" class="active">Home</a></li>
       <li><a href="about.html">About</a></li>
-      <li><a href="team.html">Team</a></li>
       <li><a href="events.html">Events</a></li>
       <li><a href="courses.html">Courses</a></li>
       <li><a href="gallery.html">Gallery</a></li>
@@ -99,16 +95,16 @@
 <section class="event-banner">
   <div class="event-card">
     <div class="event-date">
-      <div class="day">19</div>
-      <div class="month">July</div>
+      <div class="day">30<span style="font-size:30px;">–</span>31</div>
+      <div class="month">May</div>
       <div class="year">2026</div>
     </div>
     <div class="event-info">
       <span class="label">Upcoming · Featured</span>
-      <h3>LWCC Turns Two! Anniversary Celebration</h3>
-      <p>Drake & Morgan, Pancras Square <span>·</span> 4pm – 8pm <span>·</span> Dinner & drinks</p>
+      <h3>Women FIDE / ECF Classic Congress</h3>
+      <p>Pancras Square Library <span>·</span> 9am – 7pm <span>·</span> Two-day tournament</p>
     </div>
-    <a href="https://forms.gle/nne1HD7pcRHRuwCj8" class="btn-primary">RSVP →</a>
+    <a href="https://pci.jotform.com/form/260317120773349" class="btn-primary">Register →</a>
   </div>
 </section>
 
@@ -249,7 +245,6 @@
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About Us</a></li>
-        <li><a href="team.html">Meet The Team</a></li>
         <li><a href="contact.html">Get Involved</a></li>
         <li><a href="events.html">Events</a></li>
         <li><a href="courses.html">Courses</a></li>
