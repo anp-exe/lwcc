@@ -59,6 +59,10 @@ Open any `.html` file in your browser (start with `index.html`). All pages link 
 
 Both loaded from Google Fonts in each page's `<head>`.
 
+## License
+
+All Rights Reserved. This code and content belong to London Women Chess Club and may not be copied, reused, or redistributed without written permission. See [LICENSE](LICENSE) for details.
+
 ---
 
 Made with ♛ for LWCC.
