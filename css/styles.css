@@ -697,6 +697,38 @@ nav {
   color: var(--ink-soft);
   font-size: 15px;
 }
+.scrapbook-photo {
+  position: relative;
+  width: 140px;
+  justify-self: center;
+  transform: rotate(-6deg);
+  transition: transform 0.25s ease;
+}
+.scrapbook-photo:hover { transform: rotate(-2deg) scale(1.03); }
+.scrapbook-photo img {
+  display: block;
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  background: var(--white-soft);
+  border: 7px solid var(--white-soft);
+  border-bottom-width: 26px;
+  box-shadow: 0 10px 24px rgba(42, 31, 31, 0.22);
+}
+.scrapbook-photo .tape {
+  position: absolute;
+  top: -13px;
+  left: 50%;
+  width: 74px;
+  height: 28px;
+  transform: translateX(-50%) rotate(4deg);
+  background: rgba(232, 200, 192, 0.55);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
+}
+@media (max-width: 900px) {
+  .scrapbook-photo { margin: 0 auto; }
+}
 .event-info p span {
   color: var(--burgundy);
   font-weight: 500;
@@ -1275,6 +1307,7 @@ nav {
   margin-top: 56px;
 }
 .sponsor-card {
+  position: relative;
   background: var(--cream);
   padding: 48px 32px;
   border-radius: 10px;
@@ -1300,6 +1333,45 @@ nav {
   transition: filter 0.3s ease;
 }
 .sponsor-card:hover img { filter: saturate(1.1); }
+
+/* Sponsor tooltips: desktop hover only, never on touch devices */
+.sponsor-tip {
+  position: absolute;
+  bottom: calc(100% + 12px);
+  left: 50%;
+  transform: translateX(-50%) translateY(6px);
+  width: 220px;
+  background: var(--ink);
+  color: var(--cream);
+  font-size: 13px;
+  font-style: normal;
+  line-height: 1.5;
+  padding: 12px 16px;
+  border-radius: 8px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  z-index: 20;
+}
+.sponsor-tip::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 6px solid transparent;
+  border-top-color: var(--ink);
+}
+@media (hover: hover) and (pointer: fine) {
+  .sponsor-card:hover .sponsor-tip,
+  .sponsor-card:focus-visible .sponsor-tip {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-50%) translateY(0);
+  }
+}
 
 /* ============ FINAL CTA ============ */
 .final-cta {
