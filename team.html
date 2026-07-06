@@ -190,7 +190,7 @@
     <div class="footer-col">
       <h4>Newsletter</h4>
       <p style="font-size:14px;">Stay up to date with events, chess news and more.</p>
-      <form class="newsletter-form">
+      <form class="newsletter-form" id="newsletterForm">
         <input type="email" placeholder="Your email address" required>
         <button type="submit">Subscribe →</button>
       </form>
@@ -218,6 +218,20 @@
       window.location.href = 'mailto:info@londonwomenchess.org.uk?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
     });
   });
+</script>
+
+<script>
+(function () {
+  var form = document.getElementById('newsletterForm');
+  if (!form) return;
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    var email = form.querySelector('input[type="email"]').value;
+    var subject = 'Newsletter sign up';
+    var body = 'Hi Zoya, I would like to be added to the Newsletter list. My email address is: ' + email;
+    window.location.href = 'mailto:info@londonwomenchess.org.uk?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+  });
+})();
 </script>
 
 <!-- ===== COOKIE CONSENT ===== -->
