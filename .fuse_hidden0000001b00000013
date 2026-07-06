@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Meet The Team | London Women Chess Club</title>
+<title>Safeguarding | London Women Chess Club</title>
 <link rel="icon" type="image/x-icon" href="images/favicon.ico">
 <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16.png">
@@ -11,11 +11,10 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/styles.css?v=4">
+<link rel="stylesheet" href="css/styles.css?v=2">
 </head>
 <body>
 
-<!-- ===== NAV ===== -->
 <nav>
   <div class="nav-inner">
     <a href="index.html" class="logo">
@@ -25,111 +24,51 @@
     <ul class="nav-links" id="navLinks">
       <li><a href="index.html">Home</a></li>
       <li><a href="about.html">About</a></li>
-      <li><a href="team.html" class="active">Team</a></li>
+      <li><a href="team.html">Team</a></li>
       <li><a href="events.html">Events</a></li>
       <li><a href="courses.html">Courses</a></li>
       <li><a href="gallery.html">Gallery</a></li>
       <li><a href="blog.html">Blog</a></li>
-      <li><a href="safeguarding.html">Safeguarding</a></li>
+      <li><a href="safeguarding.html" class="active">Safeguarding</a></li>
       <li><a href="contact.html">Get Involved</a></li>
       <li><a href="https://form.jotform.com/241453653475359" class="btn-cta">Join Free →</a></li>
-      <li class="nav-socials">
-        <a href="https://www.linkedin.com/company/london-women-chess-club/posts/?feedView=all" target="_blank" rel="noopener" aria-label="LWCC on LinkedIn"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a>
-        <a href="https://www.instagram.com/londonwomenchessclub/?hl=en-gb" target="_blank" rel="noopener" aria-label="LWCC on Instagram"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg></a>
-        <a href="https://x.com/lwcc121" target="_blank" rel="noopener" aria-label="LWCC on X"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
-      </li>
     </ul>
     <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
   </div>
 </nav>
 
-<!-- ===== PAGE HERO ===== -->
 <section class="page-hero">
   <div class="page-hero-inner fade-up">
-    <div class="eyebrow">Our People</div>
-    <h1>Meet <em>the team</em>.</h1>
-    <p>The volunteers and coaches who give their time to keep LWCC running.</p>
+    <div class="eyebrow">Our Commitment</div>
+    <h1>Safe play, <em>always</em>.</h1>
+    <p>We're committed to providing a safe, welcoming and inclusive space for every woman and girl who walks through our door.</p>
   </div>
 </section>
 
-<!-- ===== MEET THE TEAM ===== -->
 <section class="content-section">
-  <div class="content-inner">
-    <div class="team-grid">
-      <div class="team-card">
-        <div class="photo">
-          <img src="images/zoya.png" alt="Zoya Boozorginia" onerror="this.parentElement.classList.add('broken')">
-          <div class="fallback">Z</div>
-        </div>
-        <div class="info">
-          <span class="role">Founder & Managing Director</span>
-          <h3>Zoya Boozorginia</h3>
-          <p>The founder and Managing Director of LWCC. A project architect by background, Zoya brings creativity, structure, and vision to every initiative she leads.</p>
-          <p>Having learned chess as a child, she rediscovered her passion for the game in adulthood, joining Battersea Chess Club in 2021 and immersing herself in competitive play. Inspired by <em>The Queen's Gambit</em>, she became even more captivated by the beauty and challenge of the game, and as the women she gathered around her grew into a group, she realised it was time to create something lasting.</p>
-          <p>Her mission is to make chess accessible, inclusive, and inspiring: encouraging women at all levels to build confidence, connect socially, and compete professionally.</p>
-        </div>
-      </div>
+  <div class="content-inner narrow prose">
+    <p style="font-style: italic; color: var(--burgundy); font-size: 18px; border-left: 2px solid var(--brass); padding-left: 20px;">
+      "We aim to create a safe, welcoming space for everyone to enjoy playing chess."
+    </p>
 
-      <div class="team-card">
-        <div class="photo">
-          <img src="images/lucinda-thompson.jpg" alt="Lucinda Thompson" onerror="this.parentElement.classList.add('broken')">
-          <div class="fallback">L</div>
-        </div>
-        <div class="info">
-          <span class="role">Finance Director</span>
-          <h3>Lucinda Thompson</h3>
-          <p>An engineer by profession and an active player at LWCC for over a year. As Treasurer, Lucinda oversees the club's financial health, ensuring transparency and managing the funds that support our coaching sessions and tournaments. She's committed to maintaining a strong financial foundation for LWCC's continued success and growth.</p>
-        </div>
-      </div>
+    <h2>What this <em>covers</em>.</h2>
+    <p>Our full safeguarding policy sets out how we create a safe, enjoyable and inclusive space for everyone, across clear rules, inclusivity, welcoming environment, resources and support, safety, fair play, community engagement, and how we implement it all. It also incorporates our GDPR & data protection commitments and our approach to member advocacy.</p>
 
-      <div class="team-card">
-        <div class="photo">
-          <img src="images/archi.png" alt="Archi" onerror="this.parentElement.classList.add('broken')">
-          <div class="fallback">Ar</div>
-        </div>
-        <div class="info">
-          <span class="role">In-House Coach</span>
-          <h3>Archi</h3>
-          <p>A passionate chess coach with over 15 years of playing experience. Archi specialises in working with children, helping them build strong thinking skills, confidence, and a love for the game.</p>
-          <p>Archi has loved seeing more women take up chess, and understands how intimidating a male-dominated space can feel. She's dedicated to helping women feel confident stepping into it, and her coaching sessions with LWCC have already encouraged more women to join the chess community.</p>
-        </div>
-      </div>
+    <h2>Read the <em>full policy</em>.</h2>
+    <p>The complete document covers our safeguarding approach, the ECF safeguarding framework we follow, what data we collect and how we protect it, and how we support members through advocacy.</p>
 
-      <div class="team-card">
-        <div class="photo">
-          <img src="images/anna.png" alt="Anna" onerror="this.parentElement.classList.add('broken')">
-          <div class="fallback">A</div>
-        </div>
-        <div class="info">
-          <span class="role">Website & Communications Director</span>
-          <h3>Anna</h3>
-          <p>An aspiring AI engineer and a student at King's College London. Anna built this website and helps run the club's online presence.</p>
-        </div>
-      </div>
-    </div>
+    <p style="margin-top: 28px;">
+      <a href="safeguarding-policy.html" class="btn-primary">Read the full policy →</a>
+    </p>
+
+    <h2>Raising a <em>concern</em>.</h2>
+    <p>If you have a safeguarding concern (about yourself, another member, or anything you've witnessed at the club), please contact us at <a href="mailto:info@londonwomenchess.org.uk">info@londonwomenchess.org.uk</a>. Concerns are handled confidentially.</p>
+
+    <h2>External <em>resources</em>.</h2>
+    <p>We follow the English Chess Federation safeguarding framework. For more, see <a href="https://www.englishchess.org.uk/about/safeguarding/" target="_blank" rel="noopener">Safeguarding and the ECF</a>.</p>
   </div>
 </section>
 
-<!-- ===== GET INVOLVED CTA ===== -->
-<section class="content-section alt">
-  <div class="content-inner narrow prose" style="text-align: center;">
-    <h2>Want to <em>get involved</em>?</h2>
-    <p>We're a volunteer-led organisation with in-house coaches and senior players who give their time to help others learn. If you'd like to get involved beyond playing, there's almost certainly a way to contribute.</p>
-    <a href="contact.html" class="btn-secondary">Get involved →</a>
-  </div>
-</section>
-
-<!-- ===== FINAL CTA ===== -->
-<section class="final-cta">
-  <div class="final-cta-inner">
-    <div class="eyebrow">Come Say Hi</div>
-    <h2>Your <em>seat</em> at the board is waiting.</h2>
-    <p>The best way to understand us is to come along to a Sunday session. Bring nothing, know no one. We'll take it from there.</p>
-    <a href="https://form.jotform.com/241453653475359" class="btn-light">Join us for free →</a>
-  </div>
-</section>
-
-<!-- ===== FOOTER ===== -->
 <footer>
   <div class="footer-inner">
     <div class="footer-col footer-brand">
