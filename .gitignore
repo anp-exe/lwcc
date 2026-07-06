@@ -1,3 +1,9 @@
+# FUSE mount artifacts
+.fuse_hidden*
+
+# macOS
+.DS_Store
+
 # Logs
 logs
 *.log

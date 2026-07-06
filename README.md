@@ -1,6 +1,19 @@
-# London Women Chess Club — Website
+# London Women Chess Club | Website
 
 A redesigned multi-page site for LWCC.
+
+## Before
+
+What the old site looked like before the redesign:
+
+<p>
+  <img src="images/before1.png" alt="Old LWCC site, before" width="400">
+  <img src="images/before2.png" alt="Old LWCC site, before" width="400">
+</p>
+<p>
+  <img src="images/before3.png" alt="Old LWCC site, before" width="400">
+  <img src="images/before4.png" alt="Old LWCC site, before" width="400">
+</p>
 
 ## Folder structure
 
