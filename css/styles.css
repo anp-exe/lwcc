@@ -1267,6 +1267,8 @@ nav {
   min-height: 180px;
   transition: all 0.3s ease;
   border: 1px solid transparent;
+  text-decoration: none;
+  cursor: pointer;
 }
 .sponsor-card:hover {
   border-color: var(--brass);
@@ -1565,6 +1567,15 @@ nav {
   cursor: pointer;
 }
 .blog-card:hover { border-color: var(--brass); transform: translateY(-3px); box-shadow: 0 16px 36px rgba(74, 30, 40, 0.1); }
+.blog-card.with-image { padding: 0; overflow: hidden; }
+.blog-card .card-image {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  object-position: top center;
+  display: block;
+}
+.blog-card .card-body { padding: 28px 36px 36px; }
 .blog-card .tag {
   display: inline-block;
   font-size: 11px;
@@ -1687,6 +1698,37 @@ footer {
 .footer-col ul li a:hover { color: var(--burgundy); }
 .footer-brand .logo { margin-bottom: 20px; }
 .footer-brand p { max-width: 280px; font-size: 14px; }
+.footer-social-label {
+  font-size: 12px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--burgundy);
+  font-weight: 600;
+  margin-top: 24px;
+  margin-bottom: 4px;
+}
+.social-links {
+  display: flex;
+  gap: 12px;
+  margin-top: 10px;
+}
+.social-links a {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(107, 45, 58, 0.08);
+  color: var(--burgundy);
+  transition: all 0.25s ease;
+}
+.social-links a:hover {
+  background: var(--burgundy);
+  color: var(--cream);
+  transform: translateY(-3px);
+}
+.social-links svg { width: 18px; height: 18px; fill: currentColor; }
 .newsletter-form {
   display: flex;
   margin-top: 16px;

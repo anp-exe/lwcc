@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Meet The Team | London Women Chess Club</title>
+<title>Gallery | London Women Chess Club</title>
 <link rel="icon" type="image/x-icon" href="images/favicon.ico">
 <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16.png">
@@ -15,7 +15,6 @@
 </head>
 <body>
 
-<!-- ===== NAV ===== -->
 <nav>
   <div class="nav-inner">
     <a href="index.html" class="logo">
@@ -25,10 +24,10 @@
     <ul class="nav-links" id="navLinks">
       <li><a href="index.html">Home</a></li>
       <li><a href="about.html">About</a></li>
-      <li><a href="team.html" class="active">Team</a></li>
+      <li><a href="team.html">Team</a></li>
       <li><a href="events.html">Events</a></li>
       <li><a href="courses.html">Courses</a></li>
-      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="gallery.html" class="active">Gallery</a></li>
       <li><a href="blog.html">Blog</a></li>
       <li><a href="safeguarding.html">Safeguarding</a></li>
       <li><a href="contact.html">Get Involved</a></li>
@@ -38,93 +37,69 @@
   </div>
 </nav>
 
-<!-- ===== PAGE HERO ===== -->
 <section class="page-hero">
   <div class="page-hero-inner fade-up">
-    <div class="eyebrow">Our People</div>
-    <h1>Meet <em>the team</em>.</h1>
-    <p>The volunteers and coaches who give their time to keep LWCC running.</p>
+    <div class="eyebrow">Moments</div>
+    <h1>Captured at the <em>board</em>.</h1>
+    <p>Sundays, socials, congresses and celebrations: the club through the years.</p>
   </div>
 </section>
 
-<!-- ===== MEET THE TEAM ===== -->
 <section class="content-section">
   <div class="content-inner">
-    <div class="team-grid">
-      <div class="team-card">
-        <div class="photo">
-          <img src="images/zoya.png" alt="Zoya Boozorginia" onerror="this.parentElement.classList.add('broken')">
-          <div class="fallback">Z</div>
-        </div>
-        <div class="info">
-          <span class="role">Founder & Managing Director</span>
-          <h3>Zoya Boozorginia</h3>
-          <p>The founder and Managing Director of LWCC. A project architect by background, Zoya brings creativity, structure, and vision to every initiative she leads.</p>
-          <p>Having learned chess as a child, she rediscovered her passion for the game in adulthood, joining Battersea Chess Club in 2021 and immersing herself in competitive play. Inspired by <em>The Queen's Gambit</em>, she became even more captivated by the beauty and challenge of the game, and as the women she gathered around her grew into a group, she realised it was time to create something lasting.</p>
-          <p>Her mission is to make chess accessible, inclusive, and inspiring: encouraging women at all levels to build confidence, connect socially, and compete professionally.</p>
-        </div>
+    <div class="gallery-grid">
+      <div class="gallery-item">
+        <img src="images/Award-Ceremony.jpg" alt="Award Ceremony">
       </div>
-
-      <div class="team-card">
-        <div class="photo">
-          <img src="images/lucinda-thompson.jpg" alt="Lucinda Thompson" onerror="this.parentElement.classList.add('broken')">
-          <div class="fallback">L</div>
-        </div>
-        <div class="info">
-          <span class="role">Finance Director</span>
-          <h3>Lucinda Thompson</h3>
-          <p>An engineer by profession and an active player at LWCC for over a year. As Treasurer, Lucinda oversees the club's financial health, ensuring transparency and managing the funds that support our coaching sessions and tournaments. She's committed to maintaining a strong financial foundation for LWCC's continued success and growth.</p>
-        </div>
+      <div class="gallery-item wide">
+        <img src="images/half-anniversary.jpg" alt="Half Anniversary">
       </div>
-
-      <div class="team-card">
-        <div class="photo">
-          <img src="images/archi.png" alt="Archi" onerror="this.parentElement.classList.add('broken')">
-          <div class="fallback">Ar</div>
-        </div>
-        <div class="info">
-          <span class="role">In-House Coach</span>
-          <h3>Archi</h3>
-          <p>A passionate chess coach with over 15 years of playing experience. Archi specialises in working with children, helping them build strong thinking skills, confidence, and a love for the game.</p>
-          <p>Archi has loved seeing more women take up chess, and understands how intimidating a male-dominated space can feel. She's dedicated to helping women feel confident stepping into it, and her coaching sessions with LWCC have already encouraged more women to join the chess community.</p>
-        </div>
+      <div class="gallery-item">
+        <img src="images/IMG_0994.jpeg" alt="LWCC moment">
       </div>
-
-      <div class="team-card">
-        <div class="photo">
-          <img src="images/anna.png" alt="Anna" onerror="this.parentElement.classList.add('broken')">
-          <div class="fallback">A</div>
-        </div>
-        <div class="info">
-          <span class="role">Website & Communications Director</span>
-          <h3>Anna</h3>
-          <p>An aspiring AI engineer and a student at King's College London. Anna built this website and helps run the club's online presence.</p>
-        </div>
+      <div class="gallery-item tall">
+        <img src="images/IMG_2590.jpeg" alt="LWCC moment">
+      </div>
+      <div class="gallery-item">
+        <img src="images/PHOTO-2022-07-06-09-13-38-1.jpg" alt="LWCC moment">
+      </div>
+      <div class="gallery-item">
+        <img src="images/PHOTO-2023-08-22-22-39-56-1.jpg" alt="LWCC moment">
+      </div>
+      <div class="gallery-item wide">
+        <img src="images/IMG_0991-1.jpeg" alt="LWCC moment">
+      </div>
+      <div class="gallery-item">
+        <img src="images/PHOTO-2024-02-16-13-35-17-1.jpg" alt="LWCC moment">
+      </div>
+      <div class="gallery-item">
+        <img src="images/IMG_8305.jpeg" alt="LWCC moment">
+      </div>
+      <div class="gallery-item">
+        <img src="images/IMG_0990-1.jpeg" alt="LWCC moment">
+      </div>
+      <div class="gallery-item tall">
+        <img src="images/IMG_6388.jpeg" alt="LWCC moment">
+      </div>
+      <div class="gallery-item">
+        <img src="images/8373d69a-0623-4471-93a0-da169b98d403.jpg" alt="LWCC moment">
       </div>
     </div>
+    <p style="text-align:center; margin-top:48px; font-size:14px; color:var(--ink-soft); font-style:italic;">
+      Have photos to share? <a href="contact.html" style="color: var(--burgundy);">Send them to us</a>. We'd love to feature them here.
+    </p>
   </div>
 </section>
 
-<!-- ===== GET INVOLVED CTA ===== -->
-<section class="content-section alt">
-  <div class="content-inner narrow prose" style="text-align: center;">
-    <h2>Want to <em>get involved</em>?</h2>
-    <p>We're a volunteer-led organisation with in-house coaches and senior players who give their time to help others learn. If you'd like to get involved beyond playing, there's almost certainly a way to contribute.</p>
-    <a href="contact.html" class="btn-secondary">Get involved →</a>
-  </div>
-</section>
-
-<!-- ===== FINAL CTA ===== -->
 <section class="final-cta">
   <div class="final-cta-inner">
-    <div class="eyebrow">Come Say Hi</div>
-    <h2>Your <em>seat</em> at the board is waiting.</h2>
-    <p>The best way to understand us is to come along to a Sunday session. Bring nothing, know no one. We'll take it from there.</p>
+    <div class="eyebrow">Be Part of It</div>
+    <h2>Make a moment <em>worth</em> capturing.</h2>
+    <p>The best photos come from the best Sundays. Come join us at the next session.</p>
     <a href="https://form.jotform.com/241453653475359" class="btn-light">Join us for free →</a>
   </div>
 </section>
 
-<!-- ===== FOOTER ===== -->
 <footer>
   <div class="footer-inner">
     <div class="footer-col footer-brand">

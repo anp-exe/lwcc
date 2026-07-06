@@ -53,6 +53,18 @@
     <div class="team-grid">
       <div class="team-card">
         <div class="photo">
+          <img src="images/lucinda-thompson.jpg" alt="Lucinda Thompson" onerror="this.parentElement.classList.add('broken')">
+          <div class="fallback">L</div>
+        </div>
+        <div class="info">
+          <span class="role">Finance Director</span>
+          <h3>Lucinda Thompson</h3>
+          <p>An engineer by profession and an active player at LWCC for over a year. As Treasurer, Lucinda oversees the club's financial health, ensuring transparency and managing the funds that support our coaching sessions and tournaments. She's committed to maintaining a strong financial foundation for LWCC's continued success and growth.</p>
+        </div>
+      </div>
+
+      <div class="team-card">
+        <div class="photo">
           <img src="images/zoya.png" alt="Zoya Boozorginia" onerror="this.parentElement.classList.add('broken')">
           <div class="fallback">Z</div>
         </div>
@@ -62,18 +74,6 @@
           <p>The founder and Managing Director of LWCC. A project architect by background, Zoya brings creativity, structure, and vision to every initiative she leads.</p>
           <p>Having learned chess as a child, she rediscovered her passion for the game in adulthood, joining Battersea Chess Club in 2021 and immersing herself in competitive play. Inspired by <em>The Queen's Gambit</em>, she became even more captivated by the beauty and challenge of the game, and as the women she gathered around her grew into a group, she realised it was time to create something lasting.</p>
           <p>Her mission is to make chess accessible, inclusive, and inspiring: encouraging women at all levels to build confidence, connect socially, and compete professionally.</p>
-        </div>
-      </div>
-
-      <div class="team-card">
-        <div class="photo">
-          <img src="images/lucinda-thompson.jpg" alt="Lucinda Thompson" onerror="this.parentElement.classList.add('broken')">
-          <div class="fallback">L</div>
-        </div>
-        <div class="info">
-          <span class="role">Finance Director</span>
-          <h3>Lucinda Thompson</h3>
-          <p>An engineer by profession and an active player at LWCC for over a year. As Treasurer, Lucinda oversees the club's financial health, ensuring transparency and managing the funds that support our coaching sessions and tournaments. She's committed to maintaining a strong financial foundation for LWCC's continued success and growth.</p>
         </div>
       </div>
 
