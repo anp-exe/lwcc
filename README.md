@@ -66,3 +66,25 @@ All Rights Reserved. This code and content belong to London Women Chess Club and
 ---
 
 Made with ♛ for LWCC.
+
+## Updating events and fixtures
+
+Everything on the home page banner, the Events page "What's next" list and the
+season fixtures table is generated from one file:
+
+```
+js/lwcc-events.js
+```
+
+Edit that file, commit, push. Nothing else needs touching.
+
+- `LWCC_EVENTS` holds one off events (congresses, socials, AGMs). Set
+  `featured: true` on the one you want in the big banner.
+- `LWCC_FIXTURES` holds the league fixtures for the season, copied from the
+  `LWCC_League_Management_2026-27` sheet, Fixtures tab.
+- Anything whose date has passed hides itself automatically, so old entries
+  never sit there looking stale.
+- The fixtures table opens on the soonest month only. "Show the full season"
+  reveals the rest.
+
+`js/lwcc-render.js` does the rendering and should not need changing.
