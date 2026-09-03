@@ -24,8 +24,8 @@
 
 const LWCC_EVENTS = [
   {
-    date: "2026-09-19",
-    ends: "2026-09-20",
+    date: "2026-09-12",
+    ends: "2026-09-13",
     title: "Women & Girls FIDE / ECF Classical Congress",
     where: "Pancras Square Library",
     time: "9am to 7pm",
