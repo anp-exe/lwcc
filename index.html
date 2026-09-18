@@ -282,10 +282,7 @@
     <div class="footer-col">
       <h4>Newsletter</h4>
       <p style="font-size:14px;">Stay up to date with events, chess news and more.</p>
-      <form class="newsletter-form" id="newsletterForm">
-        <input type="email" placeholder="Your email address" required>
-        <button type="submit">Subscribe →</button>
-      </form>
+      <a class="newsletter-btn" href="https://docs.google.com/forms/d/e/1FAIpQLSfX2OzXbOZ5uZu4v-wAl9ozFOFrSJlqGoFyjKLW2YN1eAn66Q/viewform" target="_blank" rel="noopener">Subscribe →</a>
       <div class="map-wrap">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7018.165551720498!2d-0.13077486771931288!3d51.53423449405444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761b39148c1b03%3A0xfd3aeacdef0fea03!2sPancras%20Square%20Library!5e0!3m2!1sen!2suk!4v1775911359258!5m2!1sen!2suk" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
@@ -424,19 +421,6 @@
 </script>
 
 
-<script>
-(function () {
-  var form = document.getElementById('newsletterForm');
-  if (!form) return;
-  form.addEventListener('submit', function (e) {
-    e.preventDefault();
-    var email = form.querySelector('input[type="email"]').value;
-    var subject = 'Newsletter sign up';
-    var body = 'Hi Zoya, I would like to be added to the Newsletter list. My email address is: ' + email;
-    window.location.href = 'mailto:info@londonwomenchess.org.uk?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
-  });
-})();
-</script>
 
 <script src="js/lwcc-events.js"></script>
 <script src="js/lwcc-render.js"></script>

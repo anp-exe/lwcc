@@ -1972,3 +1972,18 @@ footer {
   .cookie-consent-actions { flex-direction: column; }
   .cookie-consent-actions button { width: 100%; }
 }
+.newsletter-btn {
+  display: inline-block;
+  margin-top: 16px;
+  background: var(--burgundy);
+  color: var(--cream);
+  padding: 12px 22px;
+  border-radius: 999px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+.newsletter-btn:hover { background: var(--burgundy-deep); }

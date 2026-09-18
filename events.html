@@ -215,7 +215,7 @@
     <div class="eyebrow">Don't Miss Out</div>
     <h2>Subscribe to our <em>newsletter</em>.</h2>
     <p>Be the first to hear about new tournaments, workshops and socials.</p>
-    <a href="#" onclick="document.querySelector('.newsletter-form input').focus(); return false;" class="btn-light">Sign up →</a>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfX2OzXbOZ5uZu4v-wAl9ozFOFrSJlqGoFyjKLW2YN1eAn66Q/viewform" target="_blank" rel="noopener" class="btn-light">Sign up →</a>
   </div>
 </section>
 
@@ -261,10 +261,7 @@
     <div class="footer-col">
       <h4>Newsletter</h4>
       <p style="font-size:14px;">Stay up to date with events, chess news and more.</p>
-      <form class="newsletter-form" id="newsletterForm">
-        <input type="email" placeholder="Your email address" required>
-        <button type="submit">Subscribe →</button>
-      </form>
+      <a class="newsletter-btn" href="https://docs.google.com/forms/d/e/1FAIpQLSfX2OzXbOZ5uZu4v-wAl9ozFOFrSJlqGoFyjKLW2YN1eAn66Q/viewform" target="_blank" rel="noopener">Subscribe →</a>
     </div>
   </div>
   <div class="footer-bottom">
@@ -279,31 +276,8 @@
   toggle?.addEventListener('click', () => links.classList.toggle('open'));
   document.querySelectorAll('#navLinks a').forEach(a => a.addEventListener('click', () => links.classList.remove('open')));
 
-  // Newsletter forms -> mailto info@
-  document.querySelectorAll('.newsletter-form').forEach(form => {
-    form.addEventListener('submit', function(e) {
-      e.preventDefault();
-      const email = form.querySelector('input[type="email"]').value;
-      const subject = 'LWCC newsletter signup';
-      const body = 'Please add this email to the LWCC newsletter:\n\n' + email;
-      window.location.href = 'mailto:info@londonwomenchess.org.uk?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
-    });
-  });
 </script>
 
-<script>
-(function () {
-  var form = document.getElementById('newsletterForm');
-  if (!form) return;
-  form.addEventListener('submit', function (e) {
-    e.preventDefault();
-    var email = form.querySelector('input[type="email"]').value;
-    var subject = 'Newsletter sign up';
-    var body = 'Hi Zoya, I would like to be added to the Newsletter list. My email address is: ' + email;
-    window.location.href = 'mailto:info@londonwomenchess.org.uk?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
-  });
-})();
-</script>
 
 <script src="js/lwcc-events.js"></script>
 <script src="js/lwcc-render.js"></script>
