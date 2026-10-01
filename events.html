@@ -30,76 +30,6 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/styles.css?v=8">
-<style>
-/* ---- season fixtures ---- */
-.fx-group { margin-top: 40px; }
-.fx-month {
-  font-family: 'Fraunces', serif;
-  font-size: 20px;
-  font-weight: 500;
-  color: var(--burgundy);
-  margin-bottom: 16px;
-}
-.fx-row {
-  background: var(--white-soft);
-  border: 1px solid rgba(184, 146, 78, 0.18);
-  border-radius: 10px;
-  padding: 18px 24px;
-  margin-bottom: 12px;
-  display: grid;
-  grid-template-columns: 64px 1fr auto;
-  gap: 22px;
-  align-items: center;
-  transition: all 0.25s ease;
-}
-.fx-row:hover { border-color: var(--brass); box-shadow: 0 10px 24px rgba(74, 30, 40, 0.07); }
-.fx-day { text-align: center; border-right: 1px solid rgba(107, 45, 58, 0.15); padding-right: 16px; }
-.fx-day .d { display: block; font-family: 'Fraunces', serif; font-size: 28px; color: var(--burgundy); line-height: 1; }
-.fx-day .m { display: block; font-size: 11px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--burgundy-soft); margin-top: 4px; }
-.fx-body h4 { font-family: 'Fraunces', serif; font-size: 18px; font-weight: 500; color: var(--burgundy-deep); margin-bottom: 4px; }
-.fx-meta { font-size: 13.5px; color: var(--ink-soft); }
-.fx-tag {
-  font-size: 11px;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  font-weight: 600;
-  padding: 5px 12px;
-  border-radius: 999px;
-  white-space: nowrap;
-}
-.fx-home { background: var(--blush); color: var(--burgundy-deep); }
-.fx-away { background: var(--cream-warm); color: var(--burgundy-soft); }
-.fx-neutral { background: rgba(122, 139, 111, 0.18); color: #4C5B44; }
-.fx-hidden { display: none; }
-.fx-actions { text-align: center; }
-.fx-toggle {
-  display: inline-block;
-  margin-top: 30px;
-  background: transparent;
-  border: 1px solid var(--burgundy);
-  color: var(--burgundy);
-  font-family: 'DM Sans', sans-serif;
-  font-size: 14px;
-  padding: 12px 26px;
-  border-radius: 999px;
-  cursor: pointer;
-  transition: all 0.25s ease;
-}
-.fx-toggle:hover { background: var(--burgundy); color: var(--cream); }
-.fx-note { text-align: center; font-size: 14.5px; color: var(--ink-soft); margin-top: 26px; }
-.fx-note a { color: var(--burgundy); }
-.event-date .rng { font-size: 30px; padding: 0 2px; }
-@media (min-width: 1081px) {
-  .event-card.no-photo { grid-template-columns: auto 1fr auto; }
-}
-.event-row .date .rng { font-size: 22px; padding: 0 1px; }
-.event-date .day.has-range { font-size: 46px; white-space: nowrap; }
-.event-row .date .d.has-range { font-size: 32px; white-space: nowrap; }
-@media (max-width: 640px) {
-  .fx-row { grid-template-columns: 54px 1fr; gap: 16px; padding: 16px 18px; }
-  .fx-tag { grid-column: 2; justify-self: start; }
-}
-</style>
 </head>
 <body>
 
@@ -138,70 +68,10 @@
   </div>
 </section>
 
-<!-- ===== FEATURED EVENT (rendered from js/lwcc-events.js) ===== -->
-<section class="event-banner" style="padding-top: 20px;" id="lwccBanner"></section>
-
-<!-- ===== UPCOMING (rendered from js/lwcc-events.js) ===== -->
-<section class="content-section">
-  <div class="content-inner">
-    <div class="section-head">
-      <div class="eyebrow">Upcoming</div>
-      <h2>What's <em>next</em>.</h2>
-      <p>One off events, tournaments and special sessions. Past dates drop off on their own.</p>
-    </div>
-    <div class="event-list" id="lwccEvents"></div>
-  </div>
-</section>
-
-<!-- ===== SEASON FIXTURES (rendered from js/lwcc-events.js) ===== -->
-<section class="content-section alt">
-  <div class="content-inner">
-    <div class="section-head">
-      <div class="eyebrow">2026/27 Season</div>
-      <h2>League <em>fixtures</em>.</h2>
-      <p>Every match our teams are playing this season, across the Central London League, the London Chess League, 4NCL and the City rapid.</p>
-    </div>
-    <div id="lwccFixtures"></div>
-    <p class="fx-note">Fancy playing for a team? <a href="contact">Get in touch</a> and we will find you a board.</p>
-  </div>
-</section>
-
-<!-- ===== RECURRING ===== -->
-<section class="schedule">
-  <div class="schedule-inner">
-    <div class="section-head">
-      <div class="eyebrow">Every Week</div>
-      <h2>Our <em>recurring</em> sessions.</h2>
-      <p>The heartbeat of the club: turn up, play chess, meet your people.</p>
-    </div>
-    <div class="schedule-grid">
-      <div class="schedule-card">
-        <div class="icon">♛</div>
-        <h3>Weekly Women's Social Chess</h3>
-        <div class="day-label">Every Sunday</div>
-        <div class="time">1:00pm – 5:00pm</div>
-        <p>Open to everyone: beginners, returners and seasoned players. Casual games, friendly faces, and plenty of conversation. Free to attend.</p>
-      </div>
-      <div class="schedule-card">
-        <div class="icon">♞</div>
-        <h3>League Matches</h3>
-        <div class="day-label">Every Tuesday</div>
-        <div class="time">6:30pm – 9:30pm</div>
-        <p>Competitive league play for our members. Want to play for the team? Get in touch and we'll find you a spot.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
 <!-- ===== EMBEDDED GOOGLE CALENDAR ===== -->
-<section class="calendar-section">
+<section class="calendar-section" style="padding-top: 50px;">
   <div class="calendar-inner">
-    <div class="section-head">
-      <div class="eyebrow">Full Calendar</div>
-      <h2>Everything <em>at a glance</em>.</h2>
-      <p>Our complete schedule of socials, league matches and special events, straight from our Google Calendar.</p>
-    </div>
-    <div class="calendar-frame">
+    <div class="calendar-frame" style="margin-top: 0;">
       <iframe src="https://calendar.google.com/calendar/embed?src=londonwomenchessclub%40gmail.com&ctz=Europe%2FLondon&showTitle=0&showPrint=0&showCalendars=0" title="LWCC Events Calendar" loading="lazy"></iframe>
     </div>
     <p class="calendar-actions">
@@ -279,8 +149,6 @@
 </script>
 
 
-<script src="js/lwcc-events.js"></script>
-<script src="js/lwcc-render.js"></script>
 
 <!-- ===== COOKIE CONSENT ===== -->
 <div class="cookie-consent" id="cookieConsent" role="dialog" aria-live="polite" aria-label="Cookie consent">
